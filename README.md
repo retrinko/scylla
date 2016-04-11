@@ -1,6 +1,6 @@
 # retrinko/scylla
 
-Scylla is a curl client that can runs multiple requests as the same time.
+Scylla is a curl client that can execute multiple requests at the same time.
 
 ##  Installation
 
