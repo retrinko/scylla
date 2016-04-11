@@ -1,0 +1,31 @@
+{
+  "name": "retrinko/scylla",
+  "description": "Multi curl client",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "multi",
+    "curl",
+    "client"
+  ],
+  "authors": [
+    {
+      "name": "Miguel Ángel Graña",
+      "email": "miguel.mailbox@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "psr/log": "^1.0"
+  },
+  "require-dev": {
+    "monolog/monolog": "^1.0",
+    "phpunit/phpunit": "^4.8"
+  },
+  "repositories": [],
+  "autoload": {
+    "psr-4": {
+      "Scylla\\": "src"
+    }
+  }
+}
