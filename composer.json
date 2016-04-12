@@ -22,6 +22,10 @@
     "monolog/monolog": "^1.0",
     "phpunit/phpunit": "^4.8"
   },
+  "suggest": {
+    "monolog/monolog": "PSR-3 compliant logger",
+    "retrinko/url-composer": "Easy URL composition/manipulation"
+  },
   "repositories": [],
   "autoload": {
     "psr-4": {
