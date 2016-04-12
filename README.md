@@ -12,6 +12,10 @@ Install the latest version with
 
 This library requires the php's curl extension to work.
 
+## Logging
+
+You can use your prefered PSR-3 compliant logger with this library (see Basic usage section).
+
 ##  Basic usage
 
 ### Simple request
