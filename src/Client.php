@@ -27,10 +27,8 @@ class Client
      */
     protected $errors = [];
 
-    /**
-     * @param array $options
-     */
-    public function __construct($options = [])
+    
+    public function __construct()
     {
         $this->logger = new NullLogger();
         $this->responsesFactory = new DefaultResponsesFactory();
