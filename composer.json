@@ -30,7 +30,7 @@
   "repositories": [],
   "autoload": {
     "psr-4": {
-      "Scylla\\": "src"
+      "Retrinko\\Scylla\\": "src"
     }
   }
 }
