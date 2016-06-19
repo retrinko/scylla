@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Scylla\Curl;
+namespace Retrinko\Scylla\Curl;
 
 
 class PhpCurlHandler

@@ -1,6 +1,6 @@
 <?php
 
-namespace Scylla\Exceptions;
+namespace Retrinko\Scylla\Exceptions;
 
 class Exception extends \Exception
 {

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Scylla\Request;
+namespace Retrinko\Scylla\Request;
 
 
 class RequestsCollection implements \Countable, \Iterator

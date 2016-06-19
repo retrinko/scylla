@@ -1,8 +1,8 @@
 <?php
 
-use Scylla\Client;
-use Scylla\Request\Requests\DefaultRequest;
-use Scylla\Util\HttpCodes;
+use Retrinko\Scylla\Client;
+use Retrinko\Scylla\Request\Requests\DefaultRequest;
+use Retrinko\Scylla\Util\HttpCodes;
 
 require_once __DIR__.'/../vendor/autoload.php';
 date_default_timezone_set('UTC');
@@ -22,7 +22,7 @@ try
     // Execute requests
     $responsesCollection = $client->exec($sampleRequest);
     // Get current response
-    /** @var \Scylla\Response\ResponseInterface $response */
+    /** @var Retrinko\Scylla\Response\ResponseInterface $response */
     $response = $responsesCollection->current();
     // Check http code and read response data or error message
     $code = $response->getCode();

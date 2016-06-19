@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Scylla\Response\Factories;
+namespace Retrinko\Scylla\Response\Factories;
 
-use Scylla\Response\Responses\DefaultResponse;
-use Scylla\Response\ResponsesFactoryInterface;
+use Retrinko\Scylla\Response\Responses\DefaultResponse;
+use Retrinko\Scylla\Response\ResponsesFactoryInterface;
 
 class DefaultResponsesFactory implements ResponsesFactoryInterface
 {

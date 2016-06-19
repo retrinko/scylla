@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Scylla\Util;
+namespace Retrinko\Scylla\Util;
 
 /**
  * Copied from: http://krisjordan.com/php-class-for-http-response-status-codes

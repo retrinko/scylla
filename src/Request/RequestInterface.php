@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Scylla\Request;
+namespace Retrinko\Scylla\Request;
 
 
 interface RequestInterface

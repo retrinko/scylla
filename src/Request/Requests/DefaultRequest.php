@@ -1,8 +1,8 @@
 <?php
 
-namespace Scylla\Request\Requests;
+namespace Retrinko\Scylla\Request\Requests;
 
-use Scylla\Request\AbstractRequest;
+use Retrinko\Scylla\Request\AbstractRequest;
 
 class DefaultRequest extends AbstractRequest
 {

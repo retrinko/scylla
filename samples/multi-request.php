@@ -1,11 +1,11 @@
 <?php
 
-use Scylla\Client;
-use Scylla\Request\Requests\JsonRequest;
-use Scylla\Request\RequestsCollection;
-use Scylla\Response\Factories\JsonResponsesFactory;
-use Scylla\Response\ResponseInterface;
-use Scylla\Util\HttpCodes;
+use Retrinko\Scylla\Client;
+use Retrinko\Scylla\Request\Requests\JsonRequest;
+use Retrinko\Scylla\Request\RequestsCollection;
+use Retrinko\Scylla\Response\Factories\JsonResponsesFactory;
+use Retrinko\Scylla\Response\ResponseInterface;
+use Retrinko\Scylla\Util\HttpCodes;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 date_default_timezone_set('UTC');

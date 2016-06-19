@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Scylla\Response;
+namespace Retrinko\Scylla\Response;
 
 
 trait ResponsesFactoryAwareTrait

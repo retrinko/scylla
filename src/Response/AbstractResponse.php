@@ -1,8 +1,8 @@
 <?php
 
-namespace Scylla\Response;
+namespace Retrinko\Scylla\Response;
 
-use Scylla\Util\HttpCodes;
+use Retrinko\Scylla\Util\HttpCodes;
 
 abstract class AbstractResponse implements ResponseInterface
 {

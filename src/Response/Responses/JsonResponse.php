@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Scylla\Response\Responses;
+namespace Retrinko\Scylla\Response\Responses;
 
-use Scylla\Response\AbstractResponse;
+use Retrinko\Scylla\Response\AbstractResponse;
 
 class JsonResponse extends AbstractResponse
 {

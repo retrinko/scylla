@@ -1,6 +1,6 @@
 <?php
 
-namespace Scylla\Request;
+namespace Retrinko\Scylla\Request;
 
 
 abstract class AbstractRequest implements RequestInterface

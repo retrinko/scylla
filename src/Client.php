@@ -1,15 +1,15 @@
 <?php
 
-namespace Scylla;
+namespace Retrinko\Scylla;
 
-use Scylla\Curl\PhpCurlHandler;
-use Scylla\Request\RequestInterface;
-use Scylla\Exceptions\Exception;
-use Scylla\Request\RequestsCollection;
-use Scylla\Response\Factories\DefaultResponsesFactory;
-use Scylla\Response\ResponsesCollection;
-use Scylla\Response\ResponsesFactoryAwareTrait;
-use Scylla\Response\ResponsesFactoryInterface;
+use Retrinko\Scylla\Curl\PhpCurlHandler;
+use Retrinko\Scylla\Request\RequestInterface;
+use Retrinko\Scylla\Exceptions\Exception;
+use Retrinko\Scylla\Request\RequestsCollection;
+use Retrinko\Scylla\Response\Factories\DefaultResponsesFactory;
+use Retrinko\Scylla\Response\ResponsesCollection;
+use Retrinko\Scylla\Response\ResponsesFactoryAwareTrait;
+use Retrinko\Scylla\Response\ResponsesFactoryInterface;
 use Psr\Log\LoggerAwareTrait;
 use Psr\Log\NullLogger;
 
